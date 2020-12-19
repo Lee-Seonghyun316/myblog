@@ -3,11 +3,12 @@ import { StaticQuery, graphql, Link } from 'gatsby'
 import Image from 'gatsby-image'
 
 import './index.scss'
+import { AiFillGithub, AiFillInstagram, AiFillMail } from 'react-icons/all'
 
 export const Bio = () => (
   <StaticQuery
     query={bioQuery}
-    render={data => {
+    render={(data) => {
       const { author, social, introduction } = data.site.siteMetadata
 
       return (
@@ -30,7 +31,9 @@ export const Bio = () => (
                 <div className="author-introduction">{introduction}</div>
                 <p className="author-socials">
                   {social.github && (
-                    <a href={`https://github.com/${social.github}`}>GitHub</a>
+                    <a href={`https://github.com/${social.github}`}>
+                      <AiFillGithub size="2em"></AiFillGithub>
+                    </a>
                   )}
                   {social.medium && (
                     <a href={`https://medium.com/${social.medium}`}>Medium</a>
@@ -50,6 +53,16 @@ export const Bio = () => (
                       LinkedIn
                     </a>
                   )}
+                  {social.instagram && (
+                    <a href={`https://www.instagram.com/${social.instagram}/`}>
+                      <AiFillInstagram size="2em" />
+                    </a>
+                  )}
+                  {social.mail && (
+                    <a href={`mailto:${social.mail}/`}>
+                      <AiFillMail size="2em" />
+                    </a>
+                  )}
                 </p>
               </div>
             </div>
@@ -62,7 +75,7 @@ export const Bio = () => (
 
 const bioQuery = graphql`
   query BioQuery {
-    avatar: file(absolutePath: { regex: "/profile.png/" }) {
+    avatar: file(absolutePath: { regex: "/profile.jpeg/" }) {
       childImageSharp {
         fixed(width: 72, height: 72) {
           ...GatsbyImageSharpFixed
@@ -79,6 +92,8 @@ const bioQuery = graphql`
           medium
           facebook
           linkedin
+          instagram
+          mail
         }
       }
     }
