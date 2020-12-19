@@ -1,18 +1,20 @@
 module.exports = {
-  title: `Bee starter`,
-  description: `Blog posted about ...`,
-  author: `[Your Name]`,
-  introduction: `I explain with words and code. I explain with words and code. I explain with words and code.`,
+  title: `EricaBlog`,
+  description: `Blog posted about interesting programming`,
+  author: `Erica`,
+  introduction: `좋은 개발자가 되기 위해서 공부하는 중입니다. `,
   siteUrl: `https://gatsby-starter-bee.netlify.com`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
-    github: ``, // Your GitHub account
+    github: `Lee-Seonghyun316`, // Your GitHub account
     medium: ``, // Your Medium account
     facebook: ``, // Your Facebook account
     linkedin: ``, // Your LinkedIn account
+    mail:'mn031621019@gmail.com',
+    instagram:'00reason_hyun',
   },
-  icon: `content/assets/felog.png`, // Add your favicon
-  keywords: [`blog`],
+  icon: `static/favicon.png`, // Add your favicon
+  keywords: [`blog`, 'programming', 'react', 'javascript'],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
     utterances: 'JaeYeopHan/gatsby-starter-bee', // Your repository for archive comment
@@ -26,5 +28,5 @@ module.exports = {
   share: {
     facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2
   },
-  ga: '', // Add your google analytics tranking ID
+  ga: '1234', // Add your google analytics tranking ID
 }
