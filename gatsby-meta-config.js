@@ -3,7 +3,7 @@ module.exports = {
   description: `Blog posted about interesting programming`,
   author: `Erica`,
   introduction: `좋은 개발자가 되기 위해서 공부하는 중입니다. `,
-  siteUrl: `https://gatsby-starter-bee.netlify.com`, // Your blog site url
+  siteUrl: `https://erica-blog.netlify.app`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
     github: `Lee-Seonghyun316`, // Your GitHub account
@@ -28,5 +28,5 @@ module.exports = {
   share: {
     facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2
   },
-  ga: '1234', // Add your google analytics tranking ID
+  ga: 'UA-185787142-1', // Add your google analytics tranking ID
 }
