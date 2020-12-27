@@ -14,7 +14,7 @@ draft: false
 `gatsby` 로 만들었어요.강조
 
 ```jsx
-import 
+import
 ```
 
 **`index.jsx:파일명:강조`**
