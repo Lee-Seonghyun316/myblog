@@ -1,6 +1,10 @@
-# 제어문
-
-<hr>
+---
+title: 파이썬 기초(제어문)
+date: 2021-03-03 16:12:04
+category: python
+thumbnail: './image/'
+draft: false
+---
 
 ## 조건문과 반복문
 
