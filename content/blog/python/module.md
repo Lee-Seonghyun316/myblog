@@ -1,5 +1,5 @@
 ---
-title: 파이썬 기초(모듈)
+title: 파이썬 기초(모듈,패키지,예외처리)
 date: 2021-03-09 16:12:04
 category: python
 thumbnail: './image/'
