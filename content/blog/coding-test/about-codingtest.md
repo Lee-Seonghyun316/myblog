@@ -1,7 +1,7 @@
 ---
 title: 파이썬 코딩테스트(코딩테스트란?)
 date: 2021-03-13 16:12:04
-category: python
+category: coding-test
 thumbnail: './image/'
 draft: false
 ---
