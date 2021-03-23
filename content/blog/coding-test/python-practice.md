@@ -129,6 +129,8 @@ print((lambda a, b: a+b)(3, 7))#10
 
 - 내장 함수에서 자주 사용된다
 
+`예제1`
+
 ```python
 array = [('홍길동', 50), ('이순신', 32)]
 
@@ -139,4 +141,16 @@ print(sorted(array, key = my key))
 print(sorted(array, key = lambda x:x[1]))
 # ('이순신', 32), ('홍길동', 50)]
 # [('이순신', 32), ('홍길동', 50)]
+```
+
+`예제2`
+
+```python
+list1 = [1, 2, 3, 4, 5]
+list2 = [6, 7, 8, 9, 10]
+
+result = map(lambda a, b: a+b, list1, list2)
+
+print(list(result))
+#[7, 9, 11, 13, 15]
 ```

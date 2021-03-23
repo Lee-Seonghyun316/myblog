@@ -1,3 +1,5 @@
+from itertools import combinations
+from itertools import permutations
 answer = 7
 print(f"정답은 {answer} 입니다. ")
 
@@ -33,3 +35,22 @@ def my_key(x):
 
 print(sorted(array, key=my_key))
 print(sorted(array, key=lambda x: x[1]))
+
+list1 = [1, 2, 3, 4, 5]
+list2 = [6, 7, 8, 9, 10]
+
+result = map(lambda a, b: a+b, list1, list2)
+
+print(list(result))
+
+
+data = ['A', 'B', 'C']
+
+result = list(permutations(data, 3))
+print(result)
+
+
+data = ['A', 'B', 'C']
+
+result = list(combinations(data, 2))
+print(result)
