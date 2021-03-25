@@ -62,7 +62,7 @@ result = sorted(array, key = lambda x:x[1], reverse=True)
 
 2. 조합 : 서로 다른 n 개에서 순서에 상관없이 서로 다른 r 개를 선택하는 것입니다.
 
-![ex_screenshot](./p_c.png)
+![ex_screenshot](./image/p_c.png)
 
 `순열`
 

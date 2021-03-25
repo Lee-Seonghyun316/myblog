@@ -23,7 +23,7 @@ draft: false
 
 코딩테스트 공부를 할 때는 `온라인 저지(online-judge`를 이용하는 것이 좋습니다. 관련 사이트는 아래 그림을 참고해 주세요.
 
-![ex_screenshot](./online-judge.png)
+![ex_screenshot](./image/online-judge.png)
 
 특히 추천할 사이트는 백준, 코드업, 프로그래머스 입니다.
 
@@ -74,7 +74,7 @@ draft: false
 
 하지만 제일 중요한 것은 사전에 시간을 에측해서 알고리즘을 설계하는 것입니다. 아래의 시간계산 팁을 활용하면 좋을 것 같습니다.
 
-![ex_screenshot](./algorithm.png)
+![ex_screenshot](./image/algorithm.png)
 
 **알고리즘 문제 해결 과정**
 
@@ -89,6 +89,6 @@ draft: false
 
 수행시간 측정 소스코드 예제를 참고하여 문제 제출 시 의도했던 방식대로 코드를 작성해 봅시다.
 
-![ex_screenshot](./time-attack.png)
+![ex_screenshot](./image/time-attack.png)
 
 다음 글에서는 간단히 파이썬 문법을 복습하겠습니다.
