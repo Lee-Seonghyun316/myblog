@@ -1,6 +1,6 @@
 ---
 title: 데이타셋
-date: 2021-03-26 16:12:04
+date: 2021-03-28 16:12:04
 category: machine_learning
 thumbnail: './image/'
 draft: false

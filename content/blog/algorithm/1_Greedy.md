@@ -1,6 +1,6 @@
 ---
 title: 그리디 알고리즘
-date: 2021-03-02 16:12:04
+date: 2021-03-25 16:12:04
 category: algorithm
 thumbnail: './image/'
 draft: false
