@@ -1,5 +1,5 @@
 ---
-title: 반응형 웹 기본 개념 이해하기
+title: 반응형 웹 (가변 그리드, 마진과 패딩)
 date: 2021-07-16 16:12:04
 category: react-native
 thumbnail: './image/'
