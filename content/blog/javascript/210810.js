@@ -13,7 +13,7 @@ how are you?`;
 
 console.log(content);
 
-// 4.4 중첩 템플릿 템플릿 안에 템플릿을 중첩하는 것
+// 4.4 중첩 템플릿 : 템플릿 안에 템플릿을 중첩하는 것
 
 const people = [
     {
@@ -46,7 +46,11 @@ function getPrice() {
 
 getPrice();
 
-// 응용 const artist = {     name: "Bonc Jovi",     age: 56, };
+// 응용 
+// const artist = {
+//     name: "Bonc Jovi",
+//     age: 56
+// };
 
 const artist = {
     name: "Trent Reanor",
@@ -65,7 +69,8 @@ const text = `
 
 console.log(text);
 
-// 4.6 템플릿 리터럴에 함수 전달하기 다음 예제 코드처럼, 필요하면 템플릿 리터럴 내에 함수를 전달 수 있다.
+// 4.6 템플릿 리터럴에 함수 전달하기 
+// 다음 예제 코드처럼 필요하면 템플릿 리터럴 내에 함수를 전달할 수 있다.
 
 const groceries = {
     meat: "pork chop",
