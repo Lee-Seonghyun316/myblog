@@ -59,4 +59,4 @@ Critical CSS를 정확히 정의하는 것은 어렵다. 디바이스의 크기�
 
 ### @import 사용 자제하기
 
-`@import` 는 CSS파일의 렌더링 속도를 느리게 한다. 특히 `@import url(imported.css)` 와 같은 코드는 네트워크 흐름을 아래와 같이 바꿔버린다. 
+`@import` 는 CSS 파일의 렌더링 속도를 느리게 한다. 특히 `@import url(imported.css)` 와 같은 코드는 네트워크 흐름을 아래와 같이 바꿔버린다. 
